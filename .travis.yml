@@ -2,7 +2,7 @@ language:
     java
 
 install:
-    - apt-get install jlint
+    - sudo apt-get install jlint
 
 jdk:
   - oraclejdk8
