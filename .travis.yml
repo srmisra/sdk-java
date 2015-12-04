@@ -11,5 +11,6 @@ jdk:
   - openjdk6
 
 after_script:
+    ls lib/
     print_surefire_reports.sh
  
