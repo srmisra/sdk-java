@@ -4,9 +4,6 @@ language:
 install:
     - apt-get install jlint
 
-sudo:
-    false
-
 jdk:
   - oraclejdk8
   - oraclejdk7
