@@ -11,6 +11,6 @@ jdk:
   - openjdk6
 
 after_script:
-    ls lib/
+    jlint -source ./src/ ./target/classes/net/authorize/
     print_surefire_reports.sh
  
