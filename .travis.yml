@@ -1,6 +1,9 @@
 language:
     java
 
+install:
+    - apt-get install jlint
+
 sudo:
     false
 
